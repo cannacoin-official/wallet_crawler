@@ -1,0 +1,11 @@
+[package]
+name = "wallet_crawler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+bytes = "1.5"
+sha2 = "0.10"
+rand = "0.8"
+
